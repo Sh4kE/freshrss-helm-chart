@@ -9,3 +9,8 @@ name: freshrss
 sources:
 - https://github.com/FreshRSS/FreshRSS
 version: 1.21.0
+dependencies:
+- condition: postgresql.enabled
+  name: postgresql
+  repository: https://charts.bitnami.com/bitnami
+  version: 12.2.8

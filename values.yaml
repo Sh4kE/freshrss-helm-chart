@@ -58,3 +58,18 @@ persistence:
   accessModes:
     - ReadWriteOnce
   size: 1Gi
+
+postgresql:
+  enabled: false
+  global:
+    postgresql:
+      auth:
+        password: freshrss
+        database: freshrss
+        username: freshrss
+      service:
+        ports:
+          postgresql: 5432
+  primary:
+    persistence:
+      size: 1Gi
