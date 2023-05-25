@@ -1,0 +1,5 @@
+charts/
+Chart.lock
+
+# Chart Releaser
+.cr-release-packages
