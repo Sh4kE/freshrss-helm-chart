@@ -3,4 +3,4 @@ kind: template
 load: build-and-push-docker-image.star
 data:
   image: freshrss
-  tag: 1.21.0
+  tag: 1.21.0-alpine
