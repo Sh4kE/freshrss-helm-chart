@@ -1,7 +1,5 @@
 freshrss:
   image:
-    repository: sh4ke/freshrss
-    tag: "{{ .Chart.AppVersion }}-alpine"
     pullPolicy: Always
   persistence:
     enabled: true
