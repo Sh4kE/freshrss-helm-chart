@@ -1,6 +1,6 @@
 freshrss:
   image:
-    tag: 1.21.0
+    pullPolicy: Always
   persistence:
     enabled: true
     storageClassName: longhorn
