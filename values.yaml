@@ -5,8 +5,8 @@
 replicaCount: 1
 
 image:
-  repository: freshrss/freshrss
-  tag: "{{ .Chart.AppVersion }}"
+  repository: sh4ke/freshrss
+  tag: "{{ .Chart.AppVersion }}-alpine"
   pullPolicy: IfNotPresent
 
 nameOverride: ""

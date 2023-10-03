@@ -8,7 +8,7 @@ maintainers:
 name: freshrss
 sources:
 - https://github.com/FreshRSS/FreshRSS
-version: 1.21.0
+version: 2.0.0
 dependencies:
 - condition: postgresql.enabled
   name: postgresql
