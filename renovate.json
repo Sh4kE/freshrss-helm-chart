@@ -14,7 +14,7 @@
     {
       "fileMatch": ["(^|/)Chart.yaml$"],
       "matchStrings": [
-        "# renovate: datasource=(?<datasource>.*?) depName=(?<depName>.*?)( versioning=(?<versioning>.*?))?\\s*(appVersion:)\\s+(\"){0,}(?<currentValue>[a-z0-9.-]*)(\"){0,}"
+        "# renovate: datasource=(?<datasource>.*?) depName=(?<depName>.*?)( versioning=(?<versioning>.*?))?\\s*((appV|v)ersion:)\\s+(\"){0,}(?<currentValue>[a-z0-9.-]*)(\"){0,}"
       ]
     }
   ]
