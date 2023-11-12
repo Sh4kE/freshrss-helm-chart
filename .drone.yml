@@ -1,3 +1,5 @@
 ---
 kind: template
 load: helm-package-and-push.yaml
+data:
+  project: freshrss
