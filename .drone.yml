@@ -1,0 +1,3 @@
+---
+kind: template
+load: helm-package-and-push.yaml
