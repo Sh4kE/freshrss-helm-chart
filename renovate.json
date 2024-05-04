@@ -16,9 +16,8 @@
   ],
   "regexManagers": [
     {
-      "fileMatch": ["(^|/).drone.yml$"],
       "matchStrings": [
-        "# renovate: datasource=(?<datasource>.*?) depName=(?<depName>.*?)( versioning=(?<versioning>.*?))?\\s*(tag:)\\s+(\"){0,}(?<currentValue>[a-z0-9.-]*)(\"){0,}"
+        "# renovate: datasource=(?<datasource>.*?) depName=(?<depName>.*?)( versioning=(?<versioning>.*?))?\\s*(tags:)\\s+(\"){0,}(?<currentValue>[a-z0-9.-]*)(\"){0,}"
       ]
     }
   ]

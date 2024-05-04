@@ -1,7 +1,7 @@
 ---
 kind: template
-load: build-and-push-docker-image.star
+load: build-and-push-docker-image.yaml
 data:
   image: freshrss
   # renovate: datasource=docker depName=freshrss/freshrss
-  tag: 1.23.1-alpine
+  tags: 1.23.1-alpine
