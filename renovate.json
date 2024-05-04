@@ -16,6 +16,7 @@
   ],
   "regexManagers": [
     {
+      "fileMatch": ["\.ya?ml$"],
       "matchStrings": [
         "# renovate: datasource=(?<datasource>.*?) depName=(?<depName>.*?)( versioning=(?<versioning>.*?))?\\s*(tags:)\\s+(\"){0,}(?<currentValue>[a-z0-9.-]*)(\"){0,}"
       ]
