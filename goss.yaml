@@ -3,3 +3,4 @@ http:
     status: 200
     body:
       - "freshrss"
+    timeout: 8000
