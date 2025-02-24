@@ -4,4 +4,4 @@ load: build-and-push-docker-image.yaml
 data:
   image: freshrss
   # renovate: datasource=docker depName=freshrss/freshrss
-  tags: 1.25.0-alpine
+  tags: 1.26.0-alpine
